@@ -1,5 +1,6 @@
 import math as m
-#привет марк
+
+# привет марк
 print("Hello,world")
 print("Hi,mark")
 print("lOVE YOU")
@@ -56,16 +57,16 @@ y = 2 + 17 / 2 * 3
 c = 19 % 4 + 15 / 2 * 3
 d = 15 + 6 - 10 * 4
 f = 17 / 2 % 2 * 3 ** 3
-print (x,y,c,d,f)
+print(x, y, c, d, f)
 
 # Задача 2
 
 x = 17 / 2 * (3 + 2)
 y = (2 + 17) / 2 * 3
-c = 19 % (4 + 15 )/ 2 * 3
+c = 19 % (4 + 15) / 2 * 3
 d = (15 + 6 - 10) * 4
 f = 17 / 2 % (2 * 3) ** 3
-print (x,y,c,d,f)
+print(x, y, c, d, f)
 
 # Задача 3
 
@@ -77,15 +78,12 @@ y = 1.5
 c = y * 3
 # Находим неизвестную
 s = x - c
-print (s)
+print(s)
 
 x = 11
 y = 1.5
 c = x - y * 3
 print(c)
-
-
-
 
 # Общая сумма денег
 x = 11
@@ -97,32 +95,35 @@ s = y * 3
 c = x - s
 print(c)  # Выводит оставшиеся деньги
 
-
-
-
 # Задание 4
 x = 2
 y = 5
-print("Пол:",y,"Анна:",x)
+print("Пол:", y, "Анна:", x)
 
 # Задание 5
 f = 3
 a = f * 24
 b = a * 60
 c = b * 60 * 60
-print ("day:", f )
+print("day:", f)
 print("Sample Out:")
-print(f,"cуток","=",a,"часов","=",b,"минут","=",c,"секунд")
+print(f, "cуток", "=", a, "часов", "=", b, "минут", "=", c, "секунд")
 
-height_ = 5
-meter_up_per_day = 5
-meter_down_per_day = 2
+height_ = 111
+meter_up_per_day = 2
+meter_down_per_day = 41
 meter_per_day = meter_up_per_day - meter_down_per_day
 count_of_day = height_ / meter_per_day
 which_day = m.ceil(count_of_day)
 if meter_up_per_day < meter_down_per_day:
     print("Число метров вверх должно быть больше чем низ,исправьте")
 else:
-    print("улитка приползёт на",which_day,"день")
+    print("улитка приползёт на", which_day, "день")
 
+sec = 4213
+min = sec // 60
+hour = min // 60
+ost_min = min - hour * 60
+ost_sec = (sec - min * 60)
+print(hour, "часа", ost_min, "минут",ost_sec,"секунд")
 
