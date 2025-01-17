@@ -96,11 +96,13 @@ c = x - s
 print(c)  # Выводит оставшиеся деньги
 
 # Задание 4
+
 x = 2
 y = 5
 print("Пол:", y, "Анна:", x)
 
 # Задание 5
+
 f = 3
 a = f * 24
 b = a * 60
@@ -108,6 +110,8 @@ c = b * 60 * 60
 print("day:", f)
 print("Sample Out:")
 print(f, "cуток", "=", a, "часов", "=", b, "минут", "=", c, "секунд")
+
+# Задание 10
 
 height_ = 111
 meter_up_per_day = 2
@@ -126,4 +130,53 @@ hour = min // 60
 ost_min = min - hour * 60
 ost_sec = (sec - min * 60)
 print(hour, "часа", ost_min, "минут",ost_sec,"секунд")
+
+# Задание 7
+
+# Высчитываем площадь первого прямоугольника
+
+side_1 = 150
+side_2 = 65
+S_1 = side_1 * side_2
+
+# Высчитываем площадь первого прямоугольника
+
+side_3 = 30
+side_4 = 30
+S_2 = side_3 * side_4
+
+# Делим одну площадь на другую
+
+Count_sq = S_1 // S_2
+print(Count_sq)
+
+# Задание 9
+
+cash = 364
+# количество целых сотней
+hundreds = cash // 100
+fifty_bank = (cash - hundreds * 100) // 50
+ten_bank = (cash - hundreds * 100 - fifty_bank * 50 ) // 10
+unit_bank = cash - fifty_bank * 50 - hundreds * 100 - ten_bank * 10
+print(hundreds,"банкноты по сто рублей,", fifty_bank,"банкноты по 50 рублей,", ten_bank,"банкнота по 10 рублей,", unit_bank,"банкноты по одному рублю,")
+
+# Задание
+
+hour = 1
+S = 56
+V = 45
+
+t = 56 / 45
+ost_t = t % hour
+min = round(60 * ost_t)
+hour = int(t - ost_t)
+# Путь за который проедет байкер
+print(hour, "час", min, "минут")
+# Пусть время будет 1 ч 5 мин,переведем его в число
+ost_m_2 = 5
+min_2 = round (ost_m_2 % 60 )
+print(min_2)
+
+
+
 
