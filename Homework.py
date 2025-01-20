@@ -1,54 +1,5 @@
 import math as m
 
-# привет марк
-print("Hello,world")
-print("Hi,mark")
-print("lOVE YOU")
-
-# Второе задание
-
-age = 19
-if age < 20:
-    print("Мал да удал!")
-if age >= 20:
-    print("Нормалёк уголёк!")
-
-# Третье задание
-
-age = 1
-
-if age <= 10:
-    print("Красава")
-elif age > 10 and age <= 25:
-    print("норм")
-else:
-    print('Эх заживем')
-
-# Четвертое задание
-
-a = 7
-b = 2
-c = a % b
-print(c)
-
-a = 7
-b = 2
-c = a // b
-print(c)
-
-age = 1000
-if age <= 25:
-    print("маловат ты дядя")
-elif age > 25 and age <= 35:
-    print("взрословат ты дядя")
-elif age >= 35 and age <= 45:
-    print("здороват ты дядя")
-elif age >= 45 and age <= 55:
-    print("великоват ты дядя")
-elif age >= 55 and age <= 75:
-    print("староват ты дядя")
-else:
-    print("да ты еле на ногах стоишь!")
 
 # Задача 1
 
@@ -160,7 +111,7 @@ ten_bank = (cash - hundreds * 100 - fifty_bank * 50 ) // 10
 unit_bank = cash - fifty_bank * 50 - hundreds * 100 - ten_bank * 10
 print(hundreds,"банкноты по сто рублей,", fifty_bank,"банкноты по 50 рублей,", ten_bank,"банкнота по 10 рублей,", unit_bank,"банкноты по одному рублю,")
 
-# Задание
+# Задание 8
 
 hour = 1
 S = 56
